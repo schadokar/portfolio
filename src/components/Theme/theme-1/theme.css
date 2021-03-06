@@ -1,0 +1,27 @@
+body {
+  /* #007cba #666666 lightslategray darkslateblue deepskyblue*/
+  background-color: darkslateblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.theme-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.content {
+  padding-top: 1px;
+}
+
+.social-link {
+  padding: 0.2rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.skills {
+  padding-top: 2px;
+  padding-right: 50px;
+  padding-bottom: 2px;
+}

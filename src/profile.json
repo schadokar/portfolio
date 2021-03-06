@@ -1,0 +1,99 @@
+{
+  "theme": "theme1",
+  "name": "Shubham Chadokar",
+  "intial": "SC",
+  "title": "Software Engineer",
+  "quote": "Programming is common sense.",
+  "summary": "Software Engineer with 4.5+ years of experience on backend development such as Golang, Nodejs and blockchain technologies such as Ethereum and Hyperledger Fabric.",
+  "currentCompany": "Deloitte",
+  "educations": [
+    {
+      "organisation": "Jabalpur Engineering College",
+      "year": "2012-2016",
+      "field": "Bachelors of Engineering, Electronics and Tele-Communication",
+      "projects": []
+    }
+  ],
+  "experiences": [
+    {
+      "organisation": "Deloitte",
+      "year": "March 2020 - Present",
+      "works": [
+        "Worksing as a Backend Developer in the Blockchain Auditing Tool.",
+        "Developing and maintaining the backend solution in C# .Net, Nodejs and Python.",
+        "Improved the tool performance by 20% by refactoring the legacy code.",
+        "Reduced the operational cost and workload by 30% by automating the maintenance activities using bash and nodejs scripts.",
+        "Increased the tool reliability and durability by 20% by using nginx as reverse proxy and loadbalancer.",
+        "Facebook Intern: Risk Assessment Advisor of Novi Node Project."
+      ]
+    },
+    {
+      "organisation": "MSRCOSMOS",
+      "year": "August 2018 - March 2020",
+      "works": [
+        "Backend Developer in the Blockchain as a Service Project and responsible for designing, developing and maintaining the backend implementation in golang, nodejs, and hyperledger fabric.",
+        "Facilitated in acquiring multiple venture capitals for MSR Cosmos by developing SupplyChain, Insurance, Retirement Plan, Ticket Counterfeit, and Document Stamping on the Fabric and the Ethereum Blockchain.",
+        "Improved platform efficiency by half using Golang in the backend."
+      ]
+    }
+  ],
+  "links": [
+    { "email": "shubham@schadokar.dev" },
+    { "website": "https://schadokar.github.io" },
+    { "twitter": "https://twitter.com/schadokar1" },
+    { "linkedin": "https://linkedin.com/in/schadokar" },
+    { "github": "https://github.com/schadokar" },
+    { "medium": "https://medium.com/@schadokar" },
+    {
+      "stack overflow": "https://stackoverflow.com/users/9790416/shubham-chadokar"
+    }
+  ],
+  "skills": [
+    "aws",
+    "ethereum",
+    "git",
+    "docker",
+    "node",
+    "github",
+    "js",
+    "linux",
+    "react",
+    "sass"
+  ],
+  "projects": [
+    {
+      "link": "https://schadokar.dev/ebooks/playtime-with-hyperledger-composer/",
+      "title": "Author of Playtime with Hyperledger Composer eBook."
+    },
+    {
+      "link": "",
+      "title": "Author at freecodecamp, My Blog, Medium and Codesource.io. I write articles and tutorials on Golang, Nodejs, and Blockchain."
+    },
+    {
+      "link": "https://howler.in",
+      "title": "Actively engaged in the architecture and development of a SaaS solutionHowler.in for bloggers."
+    },
+    {
+      "link": "https://github.com/schadokar/coffee-hai",
+      "title": "Microservice Projects: Blockchain Dapp, Coffee-Hai(supplychain management)."
+    }
+  ],
+  "certifications": [
+    {
+      "link": "www.youracclaim.com/badges/75d03998-c9da-44e6-b266-526362998b2a",
+      "title": "Google Cloud Platform Fundamentals: Core Infrastructure",
+      "certifiedBy": "Google"
+    },
+    {
+      "link": "www.youracclaim.com/badges/75d03998-c9da-44e6-b266-526362998b2a",
+      "title": "IBM Blockchain Foundation Developer",
+      "certifiedBy": "IBM"
+    },
+    {
+      "link": "www.youracclaim.com/badges/9016ac9c-1803-48a2-ab12-cfc92e5b1f5c",
+      "title": "Exam 532: Developing Microsoft Azure Solutions",
+      "certifiedBy": "Microsoft"
+    }
+  ],
+  "resume": "https://github.com/schadokar/resume/blob/main/ShubhamChadokar_Resume.pdf"
+}

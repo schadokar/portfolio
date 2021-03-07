@@ -1,70 +1,265 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created to have a portfolio website in minutes.
 
-## Available Scripts
+## Tech used
 
-In the project directory, you can run:
+The theme is built in Reactjs using [Semantic-ui-react](https://react.semantic-ui.com) component and css.
 
-### `npm start`
+## Pre-requisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Github Account
+2. Nodejs installed on your machine
+3. Any editor like Notepad++, VS Code.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Steps
 
-### `npm test`
+Follow the steps to setup the your portfolio website.  
+Use the live site for reference.  
+[schadokar.github.io/portfolio](https://schadokar.github.io/portfolio)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Fork the repo
 
-### `npm run build`
+Click on fork button.
+It will create copy of the repository to your account.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open terminal or cmd in your PC.  
+Go to location where you want to clone the repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git clone https://github.com/<your username>/portfolio
+```
 
-### `npm run eject`
+## Run the application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Go to the project directory and open the terminal or cmd in it.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Run the project
 
-## Learn More
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Make it live
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow the next section to update the portfolio.
 
-### Code Splitting
+Once the update is complete, run it using `npm run start` and check if everything is fine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Stop the application if it is running.
 
-### Analyzing the Bundle Size
+Go to `package.json` and change the `homepage`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+"homepage": "https://<your github username>.github.io/portfolio",
+```
 
-### Making a Progressive Web App
+**Deploy it**
+Run the below command to deploy it
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm run deploy
+```
 
-### Advanced Configuration
+## Instructions to update the portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open the project in code editor for code highlighting.
 
-### Deployment
+Open `src/profile.json`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+In the profile, array is used as a list. In the portfolio, it will render/print the list content from index 0 to last index.  
+For example, In experiences, most recent experiences should be at index 0.
 
-### `npm run build` fails to minify
+### Basic Info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Update the basic info
+
+```json
+"theme": "theme1",
+"name": "Full Name",
+"profilePicture": "profile.jpg",
+"title": "Software Developer",
+"quote": "The best way you can predict the future is to create it.",
+"summary": "Software engineer with 5+ years experience in commercial application development. Eager to join XYZ Inc. to build innovative and cutting edge business solutions for the impressive suite of clients within its global reach. In previous roles, slashed downtime by 25% and ensured 98% on-time project completion. Also identified and dealt with a significant process bottleneck that boosted coding efficiency by 35% when resolved.",
+"currentCompany": "ABC",
+```
+
+> Don't change the theme. Right now there is only theme available.
+
+### Profile Picture
+
+Add the profile picture in the `public` folder.
+
+Update the filename with extension in the `src/profile.json`.
+
+### Education
+
+It is an array. In the portfolio website it will format the array from index 0 to last index.  
+Add your education details in descending order.
+
+**Education syntax**
+
+```json
+{
+  "organisation": "Name of the Organisation, College or School",
+  "year": "2014-2016",
+  "field": "Masters of Science, Software Engineering",
+  "projects": ["Project 1", "Project 2"]
+}
+```
+
+If you don't have any project, that's fine keep it as an empty array.
+
+```
+"projects": []
+```
+
+### Experience
+
+**Experience syntax**
+
+```json
+{
+  "organisation": "Name of the organisation",
+  "year": "Month Year - Month Year(Present)",
+  "works": ["point1", "point2"]
+}
+```
+
+In the work, add all the bullet points.
+
+### Links
+
+Links are the point of contacts using which other can contact you.
+
+The `theme1` is using icons provided in the semantic ui. You can check the available
+icons.
+
+[Available Icons](https://react.semantic-ui.com/elements/icon/)
+
+**Link syntax**
+
+```json
+{
+  "icon-name": "link url",
+  "color": "color"
+}
+```
+
+**Available Colors**
+
+```
+red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
+```
+
+> The `color` field is optional. Default color is black.
+
+### Skills
+
+Skills is divided into 2 parts.  
+In `semantic-ui` there are many brand icons available. To use these icons, add the skill in `skillsWithIcon` field and remaining in the `skills` field.
+
+**Skills syntax**
+
+```json
+ "skills": ["Data Structures", "Agile", "Golang", "Java", "Management"]
+```
+
+**Skills With Icons Syntax**
+
+[Available Icons](https://react.semantic-ui.com/elements/icon/)
+Check in Brands
+
+**Available Colors**
+
+```
+red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
+```
+
+The default color is black.
+
+```json
+{ "name": "aws", "color": "orange" }
+```
+
+Or only add icon name
+
+```json
+"skillsWithIcon": [
+    { "name": "aws", "color": "orange" },
+    "github"
+   ]
+```
+
+### Projects
+
+In this section, your side projects, ngo work, other college project or any project you like to add.
+
+**Project syntax**
+
+```json
+{
+  "link": "https://project1.com",
+  "title": "Project you are proud of."
+}
+```
+
+If there is no link, keep it empty.
+
+```json
+{
+  "link": "",
+  "title": "Project 2 without link"
+}
+```
+
+### Certifications
+
+**Certificate syntax**
+
+```json
+{
+  "link": "www.youracclaim.com/badges/xxxxx-xxxx-xxxx",
+  "title": "Google Cloud Platform Fundamentals: Core Infrastructure",
+  "certifiedBy": "Google"
+}
+```
+
+### Resume
+
+Add the resume link.
+You can save it in google drive and make link public or add the resume in the same github provide its link.
+
+To use the github hosted link, you first have to commit the resume and push it in the github.
+
+### Change the background color and font-family
+
+Open `src/components/Theme/theme-1/theme.css`.
+In the `body`, you can change the `background-color` and `font-family`.
+
+### Change the title
+
+Open `public/index.html`.
+
+You can change the title here.
+
+## Upcoming Features
+
+- A default resume builder which will build the resume using the above info.
+- More icons
+- Multiple themes to select
+
+## For any query
+
+For any query please create an issue.  
+If you have any suggestions please create an issue.
+
+---

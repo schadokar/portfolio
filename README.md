@@ -165,7 +165,7 @@ In the work, add all the bullet points.
 
 Links are the point of contacts using which other can contact you.
 
-The `theme1` is using icons provided in the semantic ui. You can check the available
+The basic theme is using icons provided in the semantic ui. You can check the available
 icons.
 
 [Available Icons](https://react.semantic-ui.com/elements/icon/)
@@ -267,7 +267,7 @@ To use the github hosted link, you first have to commit the resume and push it i
 
 ### Change the background color and font-family
 
-Open `src/components/Theme/theme-1/theme.css`.
+Open `src/components/theme.css`.
 In the `body`, you can change the `background-color` and `font-family`.
 
 ### Change the title

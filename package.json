@@ -1,8 +1,13 @@
 {
-  "homepage": "https://schadokar.github.io/portfolio-maker",
-  "name": "portfolio-maker",
+  "homepage": "https://schadokar.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Shubham Chadokar",
+    "email": "shubham@schadokar.dev",
+    "url": "https://schadokar.dev"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",

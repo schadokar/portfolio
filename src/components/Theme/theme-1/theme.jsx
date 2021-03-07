@@ -21,6 +21,8 @@ function Theme1({ profile }) {
   const {
     name,
     title,
+    profilePicture,
+    currentCompany,
     summary,
     quote,
     certifications,
@@ -29,6 +31,7 @@ function Theme1({ profile }) {
     links,
     projects,
     skills,
+    skillsWithIcon,
     resume,
   } = profile;
   return (
@@ -38,15 +41,15 @@ function Theme1({ profile }) {
           <GridColumn width="4">
             <Card>
               <Image
-                src="profilePic.JPEG"
-                wrapped
+                src={process.env.PUBLIC_URL + "/" + profilePicture}
                 ui={true}
                 size="medium"
-                circular
               />
               <Card.Content>
                 <Card.Header>{name}</Card.Header>
-                <Card.Meta>{title}</Card.Meta>
+                <Card.Meta>
+                  {title} {currentCompany ? `at ${currentCompany}` : ""}
+                </Card.Meta>
                 <Card.Description>
                   <i> {quote}</i>
                 </Card.Description>
@@ -73,7 +76,9 @@ function Theme1({ profile }) {
                 <Icon name="chess queen"></Icon>
                 Skills
               </Header>
-              <div className="content">{renderSkills(skills)}</div>
+              <div className="content">
+                {renderSkills(skills, skillsWithIcon)}
+              </div>
             </Segment>
             <Segment>
               <Header as="h3">

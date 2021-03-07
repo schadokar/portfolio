@@ -6,13 +6,17 @@ function renderLinks(links) {
     if (link.website) {
       htmlLinks.push(
         <a href={link.website}>
-          <Icon name="globe" size="large" color="black" />
+          <Icon name="globe" size="large" color={link.color || "black"} />
         </a>
       );
     } else if (link.email) {
       htmlLinks.push(
         <a href={`mailto:${link.email}`}>
-          <Icon name="envelope outline" size="large" color="black" />
+          <Icon
+            name="envelope outline"
+            size="large"
+            color={link.color || "black"}
+          />
         </a>
       );
     } else {
@@ -20,7 +24,7 @@ function renderLinks(links) {
       const value = link[key];
       htmlLinks.push(
         <a href={value}>
-          <Icon name={key} size="large" color="black" />
+          <Icon name={key} size="large" color={link.color || "black"} />
         </a>
       );
     }

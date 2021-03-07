@@ -1,99 +1,118 @@
 {
   "theme": "theme1",
-  "name": "Shubham Chadokar",
-  "intial": "SC",
-  "title": "Software Engineer",
-  "quote": "Programming is common sense.",
-  "summary": "Software Engineer with 4.5+ years of experience on backend development such as Golang, Nodejs and blockchain technologies such as Ethereum and Hyperledger Fabric.",
-  "currentCompany": "Deloitte",
+  "name": "Full Name",
+  "profilePicture": "profile.jpg",
+  "intial": "FL",
+  "title": "Software Developer",
+  "quote": "The best way you can predict the future is to create it.",
+  "summary": "Software engineer with 5+ years experience in commercial application development. Eager to join XYZ Inc. to build innovative and cutting edge business solutions for the impressive suite of clients within its global reach. In previous roles, slashed downtime by 25% and ensured 98% on-time project completion. Also identified and dealt with a significant process bottleneck that boosted coding efficiency by 35% when resolved.",
+  "currentCompany": "ABC",
   "educations": [
     {
-      "organisation": "Jabalpur Engineering College",
-      "year": "2012-2016",
-      "field": "Bachelors of Engineering, Electronics and Tele-Communication",
-      "projects": []
+      "organisation": "XYZ College",
+      "year": "2014-2016",
+      "field": "Masters of Science, Software Engineering",
+      "projects": [
+        "Airline Reservation System Software Engineering Project",
+        "AES Algorithm for Image Encryption"
+      ]
+    },
+    {
+      "organisation": "MNOP College",
+      "year": "2010-2014",
+      "field": "Bachelor of Engineering, Computer Science",
+      "projects": [
+        "Automation of University Campus",
+        "College Enquiry Chat Bot"
+      ]
     }
   ],
   "experiences": [
     {
-      "organisation": "Deloitte",
-      "year": "March 2020 - Present",
+      "organisation": "ABC",
+      "year": "March 2019 - Present",
       "works": [
-        "Worksing as a Backend Developer in the Blockchain Auditing Tool.",
-        "Developing and maintaining the backend solution in C# .Net, Nodejs and Python.",
-        "Improved the tool performance by 20% by refactoring the legacy code.",
-        "Reduced the operational cost and workload by 30% by automating the maintenance activities using bash and nodejs scripts.",
-        "Increased the tool reliability and durability by 20% by using nginx as reverse proxy and loadbalancer.",
-        "Facebook Intern: Risk Assessment Advisor of Novi Node Project."
+        "An analytical senior-level software developer with deep expertise in ASP.NET and SharePoint technologies posses 5+ year hands on experience.",
+        "Versed in both agile and waterfall development techniques.",
+        "Skilled in requirements analysis and project documentation.",
+        "Able to communicate effectively with both technical and non-technical project stakeholders."
       ]
     },
     {
-      "organisation": "MSRCOSMOS",
-      "year": "August 2018 - March 2020",
+      "organisation": "DEF",
+      "year": "January 2016 - March 2019",
       "works": [
-        "Backend Developer in the Blockchain as a Service Project and responsible for designing, developing and maintaining the backend implementation in golang, nodejs, and hyperledger fabric.",
-        "Facilitated in acquiring multiple venture capitals for MSR Cosmos by developing SupplyChain, Insurance, Retirement Plan, Ticket Counterfeit, and Document Stamping on the Fabric and the Ethereum Blockchain.",
-        "Improved platform efficiency by half using Golang in the backend."
+        "An analytical senior-level software developer with deep expertise in ASP.NET and SharePoint technologies posses 5+ year hands on experience.",
+        "Versed in both agile and waterfall development techniques.",
+        "Skilled in requirements analysis and project documentation.",
+        "Able to communicate effectively with both technical and non-technical project stakeholders."
       ]
     }
   ],
   "links": [
-    { "email": "shubham@schadokar.dev" },
-    { "website": "https://schadokar.github.io" },
-    { "twitter": "https://twitter.com/schadokar1" },
-    { "linkedin": "https://linkedin.com/in/schadokar" },
-    { "github": "https://github.com/schadokar" },
-    { "medium": "https://medium.com/@schadokar" },
+    { "email": "hello@world.com", "color": "black" },
+    { "website": "https://schadokar.github.io/portfolio" },
+    { "twitter": "https://twitter.com/username", "color": "blue" },
+    { "linkedin": "https://linkedin.com/in/username", "color": "blue" },
+    { "github": "https://github.com/username" },
+    { "medium": "https://medium.com/@username" },
     {
-      "stack overflow": "https://stackoverflow.com/users/9790416/shubham-chadokar"
+      "stack overflow": "https://stackoverflow.com/users/1234566/username",
+      "color": "orange"
     }
   ],
-  "skills": [
-    "aws",
+  "skills": ["Data Structures", "Agile", "Golang", "Java", "SQL"],
+  "skillsWithIcon": [
+    { "name": "aws", "color": "orange" },
     "ethereum",
     "git",
-    "docker",
-    "node",
+    {
+      "name": "docker",
+      "color": "blue"
+    },
+    { "name": "node", "color": "green" },
     "github",
-    "js",
+    { "name": "js", "color": "yellow" },
     "linux",
-    "react",
-    "sass"
+    { "name": "react", "color": "blue" },
+    { "name": "sass", "color": "pink" },
+    { "name": "vuejs", "color": "green" },
+    { "name": "angular", "color": "red" }
   ],
   "projects": [
     {
-      "link": "https://schadokar.dev/ebooks/playtime-with-hyperledger-composer/",
-      "title": "Author of Playtime with Hyperledger Composer eBook."
+      "link": "https://project1.com",
+      "title": "Project you are proud of."
     },
     {
       "link": "",
-      "title": "Author at freecodecamp, My Blog, Medium and Codesource.io. I write articles and tutorials on Golang, Nodejs, and Blockchain."
+      "title": "Project 2 without link"
     },
     {
-      "link": "https://howler.in",
-      "title": "Actively engaged in the architecture and development of a SaaS solutionHowler.in for bloggers."
+      "link": "https://project3.com",
+      "title": "publications or NGO work."
     },
     {
-      "link": "https://github.com/schadokar/coffee-hai",
-      "title": "Microservice Projects: Blockchain Dapp, Coffee-Hai(supplychain management)."
+      "link": "https://github.com/schadokar/portfolio",
+      "title": "github open source projects."
     }
   ],
   "certifications": [
     {
-      "link": "www.youracclaim.com/badges/75d03998-c9da-44e6-b266-526362998b2a",
+      "link": "www.youracclaim.com/badges/xxxxx-xxxx-xxxx",
       "title": "Google Cloud Platform Fundamentals: Core Infrastructure",
       "certifiedBy": "Google"
     },
     {
-      "link": "www.youracclaim.com/badges/75d03998-c9da-44e6-b266-526362998b2a",
+      "link": "www.youracclaim.com/badges/xxxxxx-xxxxx-xxxxx",
       "title": "IBM Blockchain Foundation Developer",
       "certifiedBy": "IBM"
     },
     {
-      "link": "www.youracclaim.com/badges/9016ac9c-1803-48a2-ab12-cfc92e5b1f5c",
+      "link": "www.youracclaim.com/badges/xxxxxxx-xxxxxxx-xxxxxxx",
       "title": "Exam 532: Developing Microsoft Azure Solutions",
       "certifiedBy": "Microsoft"
     }
   ],
-  "resume": "https://github.com/schadokar/resume/blob/main/ShubhamChadokar_Resume.pdf"
+  "resume": "https://resume-link-in-pdf-format.pdf"
 }

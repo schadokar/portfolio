@@ -1,5 +1,11 @@
 {
-  "theme": "theme1",
+  "contentOrder": [
+    "skills",
+    "experiences",
+    "projects",
+    "certifications",
+    "educations"
+  ],
   "name": "Full Name",
   "profilePicture": "profile.jpg",
   "title": "Software Developer",
@@ -53,7 +59,7 @@
     { "website": "https://schadokar.github.io/portfolio" },
     { "twitter": "https://twitter.com/username", "color": "blue" },
     { "linkedin": "https://linkedin.com/in/username", "color": "blue" },
-    { "github": "https://github.com/username" },
+    { "github": "https://github.com/schadokar/portfolio" },
     { "medium": "https://medium.com/@username" },
     {
       "stack overflow": "https://stackoverflow.com/users/1234566/username",

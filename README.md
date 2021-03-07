@@ -62,11 +62,23 @@ Go to `package.json` and change the `homepage`.
 "homepage": "https://<your github username>.github.io/portfolio",
 ```
 
-**Deploy it**
+**Deploy it**  
 Run the below command to deploy it
 
 ```
 npm run deploy
+```
+
+### Save the progress
+
+Once everything is deployed and you're happy with it, commit the code.
+
+```
+git add .
+
+git commit -m 'portfolio updated'
+
+git push origin main
 ```
 
 ## Instructions to update the portfolio
@@ -78,12 +90,27 @@ Open `src/profile.json`.
 In the profile, array is used as a list. In the portfolio, it will render/print the list content from index 0 to last index.  
 For example, In experiences, most recent experiences should be at index 0.
 
+### Order of the content
+
+You can change the order of content to be shown in the portfolio.
+
+```json
+"contentOrder": [
+    "skills",
+    "experiences",
+    "projects",
+    "certifications",
+    "educations"
+  ]
+```
+
+> Don't edit anything else other than order.
+
 ### Basic Info
 
 Update the basic info
 
 ```json
-"theme": "theme1",
 "name": "Full Name",
 "profilePicture": "profile.jpg",
 "title": "Software Developer",
@@ -91,8 +118,6 @@ Update the basic info
 "summary": "Software engineer with 5+ years experience in commercial application development. Eager to join XYZ Inc. to build innovative and cutting edge business solutions for the impressive suite of clients within its global reach. In previous roles, slashed downtime by 25% and ensured 98% on-time project completion. Also identified and dealt with a significant process bottleneck that boosted coding efficiency by 35% when resolved.",
 "currentCompany": "ABC",
 ```
-
-> Don't change the theme. Right now there is only theme available.
 
 ### Profile Picture
 

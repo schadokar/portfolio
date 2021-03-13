@@ -4,7 +4,8 @@
     "experiences",
     "projects",
     "certifications",
-    "educations"
+    "educations",
+    "interests"
   ],
   "name": "Full Name",
   "profilePicture": "profile.jpg",
@@ -119,5 +120,6 @@
       "certifiedBy": "Microsoft"
     }
   ],
+  "interests": ["Painting", "Photography", "Reading"],
   "resume": "https://resume-link-in-pdf-format.pdf"
 }

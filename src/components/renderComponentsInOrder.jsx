@@ -3,6 +3,7 @@ import renderExperiences from "./renderExperiences";
 import renderEducations from "./renderEducations";
 import renderProjects from "./renderProjects";
 import renderCertifications from "./renderCertifications";
+import renderInterests from "./renderInterests";
 
 function renderComponentsInOrder(
   contentOrder,
@@ -11,7 +12,8 @@ function renderComponentsInOrder(
   experiences,
   projects,
   certifications,
-  educations
+  educations,
+  interests
 ) {
   const renderFunctionsOrder = [];
   for (let content of contentOrder) {
@@ -30,6 +32,9 @@ function renderComponentsInOrder(
         break;
       case "educations":
         renderFunctionsOrder.push(renderEducations(educations));
+        break;
+      case "interests":
+        renderFunctionsOrder.push(renderInterests(interests));
         break;
       default:
         break;

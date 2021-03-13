@@ -28,6 +28,7 @@ function Basic({ profile }) {
     projects,
     skills,
     skillsWithIcon,
+    interests,
     resume,
     contentOrder,
   } = profile;
@@ -76,7 +77,8 @@ function Basic({ profile }) {
                 experiences,
                 projects,
                 certifications,
-                educations
+                educations,
+                interests
               )}
             </Segment.Group>
           </GridColumn>

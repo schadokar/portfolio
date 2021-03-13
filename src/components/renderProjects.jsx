@@ -5,11 +5,11 @@ function renderProjects(projects) {
   if (projects && projects.length) {
     return (
       <Segment>
-        <Header as="h3">
-          <Icon name="lab"></Icon>
-          Projects
-        </Header>
         <div className="content">
+          <Header as="h3">
+            <Icon name="rocket"></Icon>
+            Projects
+          </Header>
           <List>
             {projects.map((project, index) => (
               <List.Item

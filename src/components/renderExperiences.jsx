@@ -5,11 +5,11 @@ function renderExperiences(experiences) {
   if (experiences && experiences.length) {
     return (
       <Segment>
-        <Header as="h3">
-          <Icon name="briefcase"></Icon>
-          Experiences
-        </Header>
         <div className="content">
+          <Header as="h3">
+            <Icon name="briefcase"></Icon>
+            Experiences
+          </Header>
           <Item.Group>
             {experiences.map((skill, index) => (
               <Item key={index}>
@@ -33,7 +33,7 @@ function renderExperiences(experiences) {
 function renderWorks(works) {
   return works.map((work, index) => (
     <List.Item key={index}>
-      <List.Icon name="paper plane outline"></List.Icon>
+      <List.Icon name="angle right"></List.Icon>
       <List.Content>
         <List.Description>{work}</List.Description>
       </List.Content>

@@ -12,6 +12,23 @@ The theme is built in Reactjs using [Semantic-ui-react](https://react.semantic-u
 2. Nodejs installed on your machine
 3. Any editor like Notepad++, VS Code.
 
+# Available Themes
+
+1. Basic
+2. Professional-basic
+
+Theme screenshots are saved in the [images](./images).
+
+## Select Theme
+
+By default, main branch is `basic` theme.
+
+To use the `professional-basic` checkout to the `professional-basic` branch.
+
+```
+git checkout professional-basic
+```
+
 # Steps
 
 Follow the steps to setup the your portfolio website.  
@@ -90,6 +107,13 @@ Open `src/profile.json`.
 In the profile, array is used as a list. In the portfolio, it will render/print the list content from index 0 to last index.  
 For example, In experiences, most recent experiences should be at index 0.
 
+If you don't want a section then keep it empty.  
+For example: If you don't want interests section, then update the profile as
+
+```json
+"profile": []
+```
+
 ### Order of the content
 
 You can change the order of content to be shown in the portfolio.
@@ -100,7 +124,8 @@ You can change the order of content to be shown in the portfolio.
     "experiences",
     "projects",
     "certifications",
-    "educations"
+    "educations",
+    "interests"
   ]
 ```
 
@@ -256,6 +281,14 @@ If there is no link, keep it empty.
   "title": "Google Cloud Platform Fundamentals: Core Infrastructure",
   "certifiedBy": "Google"
 }
+```
+
+### Interests
+
+**Interest syntax**
+
+```json
+"interests": ["Painting", "Photography", "Reading"]
 ```
 
 ### Resume

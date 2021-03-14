@@ -15,9 +15,14 @@ The theme is built in Reactjs using [Semantic-ui-react](https://react.semantic-u
 # Available Themes
 
 1. Basic
-2. Professional-basic
+2. Professional Basic
 
 Theme screenshots are saved in the [images](./images).
+
+**Demo**
+
+- [Basic](https://schadokar.github.io/portfolio)
+- [Professional Basic](https://schadokar.github.io/)
 
 ## Select Theme
 
@@ -97,6 +102,30 @@ git commit -m 'portfolio updated'
 
 git push origin main
 ```
+
+### Make it live at https://<username>.github.io
+
+You may want your portfolio on `https://<username>.github.io` rather than `https://<username>.github.io/portfolio`.  
+Follow the below steps to make that happen.
+
+- Create a repository `<username>.github.io`. For ex. `schadokar.github.io`.
+- Open the terminal/cmd in the `portfolio` repo.
+- Commit the code if you made any changes.
+- Push the code to `<username>.github.io` instead of `origin`.
+
+```
+git push https://github.com/<username>/<username>.github.io.git <branch name>
+
+Or
+
+git push https://github.com/<username>/<username>.github.io.git main
+```
+
+- Clone the `<username>.github.io` repo in the local.
+- Update the `profile.json`.
+- Update the `homepage` in the `package.json` to `https://<username>.github.io`.
+- Install all the dependecies `npm install`.
+- Run `npm run deploy` to deploy.
 
 ## Instructions to update the portfolio
 

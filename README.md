@@ -103,7 +103,7 @@ git commit -m 'portfolio updated'
 git push origin main
 ```
 
-### Make it live at https://<username>.github.io
+### Make it live at https://username.github.io
 
 You may want your portfolio on `https://<username>.github.io` rather than `https://<username>.github.io/portfolio`.  
 Follow the below steps to make that happen.

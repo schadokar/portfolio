@@ -5,11 +5,11 @@ function renderSkills(skills, skillsWithIcon) {
   if ((skills && skills.length) || (skillsWithIcon && skillsWithIcon.length)) {
     return (
       <Segment>
-        <Header as="h3">
-          <Icon name="chess queen"></Icon>
-          Skills
-        </Header>
         <div className="content">
+          <Header as="h3">
+            <Icon name="chess queen"></Icon>
+            Skills
+          </Header>
           {renderSkillsWithoutIcon(skills)}
           {renderSkillsWithIcon(skillsWithIcon)}
         </div>

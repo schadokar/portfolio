@@ -5,11 +5,11 @@ function renderEducations(educations) {
   if (educations && educations.length) {
     return (
       <Segment>
-        <Header as="h3">
-          <Icon name="university"></Icon>
-          Education
-        </Header>
         <div className="content">
+          <Header as="h3">
+            <Icon name="university"></Icon>
+            Education
+          </Header>
           <Item.Group>
             {educations.map((education) => (
               <Item>
@@ -35,7 +35,7 @@ function renderEducations(educations) {
 function renderProjects(works) {
   return works.map((work, index) => (
     <List.Item key={index}>
-      <List.Icon name="paper plane outline"></List.Icon>
+      <List.Icon name="angle right"></List.Icon>
       <List.Content>
         <List.Description>{work}</List.Description>
       </List.Content>

@@ -6,16 +6,15 @@ function renderCertifications(certifications) {
   if (certifications && certifications.length) {
     return (
       <Segment>
-        <Header as="h3">
-          <Icon name="certificate"></Icon>
-          Certifications
-        </Header>
         <div className="content">
+          <Header as="h3">
+            <Icon name="certificate"></Icon>
+            Certifications
+          </Header>
           <Item.Group>
             {certifications.map((certification, index) => (
               <Item key={index}>
                 <Item.Content>
-                  <Icon name="chain"></Icon>
                   <Item.Header>{certification.title}</Item.Header>
                   <Item.Meta>
                     <a

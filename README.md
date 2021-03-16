@@ -37,8 +37,7 @@ git checkout basic
 # Steps
 
 Follow the steps to setup the your portfolio website.  
-Use the live site for reference.  
-[schadokar.github.io/portfolio](https://schadokar.github.io/portfolio)
+Use the respective demo site as reference.
 
 ## Fork the repo
 

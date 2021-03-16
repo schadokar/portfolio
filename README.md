@@ -26,12 +26,12 @@ Theme screenshots are saved in the [images](./images).
 
 ## Select Theme
 
-By default, main branch is `basic` theme.
+By default, main branch is `Professional Basic` theme.
 
-To use the `professional-basic` checkout to the `professional-basic` branch.
+To use the `basic` checkout to the `basic` branch.
 
 ```
-git checkout professional-basic
+git checkout basic
 ```
 
 # Steps

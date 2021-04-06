@@ -139,7 +139,7 @@ If you don't want a section then keep it empty.
 For example: If you don't want interests section, then update the profile as
 
 ```json
-"profile": []
+"interests": []
 ```
 
 ### Order of the content
@@ -253,16 +253,6 @@ In `semantic-ui` there are many brand icons available. To use these icons, add t
 
 **Skills With Icons Syntax**
 
-[Available Icons](https://react.semantic-ui.com/elements/icon/)
-Check in Brands
-
-**Available Colors**
-
-```
-red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
-```
-
-The default color is black.
 
 ```json
 { "name": "aws", "color": "orange" }
@@ -276,6 +266,18 @@ Or only add icon name
     "github"
    ]
 ```
+
+[Available Icons](https://react.semantic-ui.com/elements/icon/)
+Check in Brands
+
+**Available Colors**
+
+```
+red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
+```
+
+The default color is black.
+
 
 ### Projects
 
